@@ -35,7 +35,7 @@ func main() {
 			Usage:  "Files to exclude when creating the package zip archive",
 			EnvVar: "PLUGIN_IGNORE_PATTERNS",
 		},
-		cli.StringSliceFlag{
+		cli.StringFlag{
 			Name:   "gitea-user",
 			Usage:  "Username of Gitea user used for authentication. Required when the repository is not private.",
 			EnvVar: "PLUGIN_GITEA_USER",
