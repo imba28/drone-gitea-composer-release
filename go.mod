@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/cnmade/gonetrc v1.0.0
-	github.com/sirupsen/logrus v1.8.1
+	github.com/sirupsen/logrus v1.8.3
 	github.com/urfave/cli v1.22.9
 )
 
